@@ -1,0 +1,15 @@
+/* HEADER */
+header{
+    text-align: center;
+    background-color: rgb(240, 255, 245);
+    margin: 2,5%;
+   
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(2, 82, 29);
+  font-size: 350%;
+}
