@@ -13,3 +13,13 @@ h1{
   color: rgb(2, 82, 29);
   font-size: 350%;
 }
+/* NAV */
+nav{
+    background-color: rgb(2, 82, 29);
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+text-decoration: none; 
+}
+a{
+    color: white;
+}
