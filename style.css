@@ -23,3 +23,9 @@ text-decoration: none;
 a{
     color: white;
 }
+/* MAIN */
+main{
+   background-image: url(fondomain.jpeg.jpeg);
+    margin: 2%; 
+}
+ 
