@@ -25,6 +25,16 @@ a{
     color: white;
 }
 /* MAIN */
+.window-notice {
+    background: rgba(2, 82, 29, .85);
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    position: fixed;
+    z-index: 999;
+}
 main{
    background-image: url(fondomain.jpeg.jpeg);
    background-size: 50%;
@@ -156,4 +166,10 @@ footer{
     color: black;
     text-align: center;
     font-size: 90%;
+}
+
+/* PRODUCTOS */
+.body3{
+    background-color: white;
+    
 }
