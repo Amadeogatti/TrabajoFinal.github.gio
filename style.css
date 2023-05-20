@@ -171,5 +171,19 @@ footer{
 /* PRODUCTOS */
 .body3{
     background-color: white;
-    
+
+}
+.producto1{
+    background-color: white;
+margin: 19px; 
+margin-top: 10px;
+width: 50px;
+padding: 15;
+}
+.titulo1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:  rgb(2, 82, 29);
+    font-size: 20px;
+    padding: 10px;
+
 }
