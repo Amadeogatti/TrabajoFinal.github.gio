@@ -174,16 +174,34 @@ footer{
 
 }
 .producto1{
-    background-color: white;
+   background-color: rgb(207, 193, 193);
 margin: 19px; 
 margin-top: 10px;
 width: 50px;
 padding: 15;
+color: black;
+border-radius: 10px;
+border-color: black;
+border-style: inset;
+text-align: center;
 }
 .titulo1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:  rgb(2, 82, 29);
     font-size: 20px;
-    padding: 10px;
+    padding: 2px;
+
+}
+.comprar{
+    background-color: rgb(2, 82, 29);
+    text-decoration: none;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.precio{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifS;
+}
+.productosmain{ display: grid;
+    
 
 }
