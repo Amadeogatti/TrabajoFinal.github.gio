@@ -1,7 +1,7 @@
 /* HEADER */
 header{
     text-align: center;
-    background-color: rgb(240, 255, 245);
+    background-color:rgb(2, 82, 29);
     margin: 2,5%;
    
 }
@@ -25,6 +25,9 @@ a{
     color: white;
 }
 /* MAIN */
+.video{ text-align: center;
+   
+}
 .window-notice {
     background: rgba(2, 82, 29, .85);
     left: 0;
@@ -38,7 +41,9 @@ a{
 main{
    background-image: url(fondomain.jpeg.jpeg);
    background-size: 50%;
-    margin: 2%; 
+    margin: 1%; 
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
 }
 .GofresGatti{
     text-align: center;
@@ -46,21 +51,22 @@ main{
     -webkit-text-stroke: 1px black;
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       font-size: 350%;
+      margin-top: 7px;
 }
 .Delicias{
-    font-size: 180%;
-    -webkit-text-fill-color: rgb(0, 0, 0);
--webkit-text-stroke: 1px black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    -webkit-text-fill-color: rgb(2, 82, 29);
+-webkit-text-stroke: rgb(2, 82, 29);
+font-family: 'Staatliches', cursive;
 text-align: center;
+background-color: white ;
+border-radius: 2px;
+border-color: black;
+padding: 3px;
+
+
 }
-.Dulce{
-    text-align: center;
-    font-size: 200%;
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- color: rgb(0, 0, 0);
- text-shadow: 10cap;
-}
+
 .title{text-align: center;
     -webkit-text-fill-color: rgb(2, 82, 29);
     -webkit-text-stroke: 1px black;
@@ -186,6 +192,7 @@ border-style: inset;
 text-align: center;
 grid-column-start: 1;
 grid-column-end: 1;
+border-right: 50px;
 }
 .producto2{
     background-color: rgb(207, 193, 193);
@@ -200,6 +207,21 @@ grid-column-end: 1;
  text-align: center;
  grid-column-start: 2;
  grid-column-end: 2;
+ }
+
+ .producto3{
+    background-color: rgb(207, 193, 193);
+ margin: 19px; 
+ margin-top: 10px;
+ width: 50px;
+ padding: 15;
+ color: black;
+ border-radius: 10px;
+ border-color: black;
+ border-style: inset;
+ text-align: center;
+ grid-column-start: 3;
+ grid-column-end: 3;
  }
 .titulo1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
