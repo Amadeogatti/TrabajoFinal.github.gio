@@ -184,7 +184,23 @@ border-radius: 10px;
 border-color: black;
 border-style: inset;
 text-align: center;
+grid-column-start: 1;
+grid-column-end: 1;
 }
+.producto2{
+    background-color: rgb(207, 193, 193);
+ margin: 19px; 
+ margin-top: 10px;
+ width: 50px;
+ padding: 15;
+ color: black;
+ border-radius: 10px;
+ border-color: black;
+ border-style: inset;
+ text-align: center;
+ grid-column-start: 2;
+ grid-column-end: 2;
+ }
 .titulo1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:  rgb(2, 82, 29);
@@ -196,12 +212,12 @@ text-align: center;
     background-color: rgb(2, 82, 29);
     text-decoration: none;
     color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 .precio{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifS;
 }
 .productosmain{ display: grid;
-    
+    grid-template-columns: 1fr 1fr 1fr;
 
 }
