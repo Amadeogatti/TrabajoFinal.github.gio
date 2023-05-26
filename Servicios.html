@@ -6,34 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicios</title>
     <link rel="stylesheet" href="style.css">
-   <link rel="stylesheet" href="/boostrap-5.3.0/dist/css/bootstrap.min.css"> 
+<link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
+   
 </head>
 <body>
+  <div>
+</div>
     <header>
         <img src="Logo1.png" width="100">
 
         <p><b><i>SINCE 2019.</i></b></p>
         
             </header>
-        <div>
+        <div class="nav">
             <nav>
-        <li>
+
         <a href="index.html"><b>Inicio</b></a> 
            <a href="Productos.html"><b> Productos</b></a>
             <a href="Servicios.html"><b>Servicios</b></a>
              <a href="Sobrenosotros.html"><b>Sobre Nosotros</b></a>
              <a href="tarea3.html"><b>Horarios de atencion</b></a>
-        </li>
+     
         
             </nav>
+        </div>
             <main>
                 <h1 class="title">Nuestro Food Truck en tu evento!</h1>
+             <div class="carrousel">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="evento2.jpeg" class="d-block w-100"  height="500px" >
+                      
+                    </div>
+                    <div class="carousel-item">
+                      <img src="evento1.jpeg" class="d-block w-100"  height="500px">
+                      
+                    </div>
+                    <div class="carousel-item">
+                      <img src="evento 3.jpeg" class="d-block w-100"  height="500px">
+                    
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+      
                 <form method="" action="" class="form">
-                    <div class="nombreyapellido">
-                        <span class="input-group-text">Nombre y Apellido</span>
-                        <input type="text" impact="First name" class="form-control" fami>
-                        <input type="text" impact="Last name" class="form-control">
-                      </div>
+                  <div class="nombreyapellido">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Nombre y Apellido.</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                  </div>
                     <br>
                     <br>
                     <div class="date">

@@ -15,7 +15,7 @@ p{
   font-size: 350%;
 }
 /* NAV */
-nav{
+.nav{
     background-color: rgb(2, 82, 29);
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
@@ -25,6 +25,15 @@ a{
     color: white;
 }
 /* MAIN */
+.carrousel{
+    margin: 250px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     color: black;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
 .video{ text-align: center;
    
 }
