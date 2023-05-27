@@ -18,10 +18,25 @@ p{
 .nav{
     background-color: rgb(2, 82, 29);
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-text-decoration: none; 
+text-decoration: none;
+margin: 2px;
 }
 a{
+    margin: 2px;
+    color: white;
+}
+.navservicios{
+    background-color: rgb(2, 82, 29);
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+padding: 1px;
+color: white;
+margin: 8px;
+font-size: 15px;
+}
+.servicios{
+    margin: 8px;
+}
+.navele{
     color: white;
 }
 /* MAIN */
@@ -251,4 +266,23 @@ border-right: 50px;
 .productosmain{ display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 
+}
+/* SOBRE NOSOTROS */
+.fotosobre{ 
+    float: left;
+    margin: 5px;
+}
+.infosobre{ 
+    background-color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+ 
+}
+.titulazo{ 
+    
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Staatliches', cursive;
+   font-size: 45px;
+ color: rgb(2, 82, 29);
 }
