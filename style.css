@@ -26,15 +26,21 @@ a{
     color: white;
 }
 .navservicios{
+    grid-row-start: 1fr;
+    grid-row-end: 1fr;
     background-color: rgb(2, 82, 29);
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 padding: 1px;
 color: white;
 margin: 8px;
 font-size: 15px;
+
 }
 .servicios{
+ 
     margin: 8px;
+    grid-row-start: 3fr;
+    grid-row-end: 3fr;
 }
 .navele{
     color: white;
@@ -177,7 +183,27 @@ margin-left: 550px;
     border-style: solid;
 
 }
+.bodyhorarios{
+    display: grid;
+    grid-template-areas: 1fr 1fr 1fr;
  
+}
+.horarios{
+    display: grid;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    margin: 10px;
+    border-color: white;
+    margin-left: 500px;
+    margin-right: 500px;
+
+
+}
+ .mainhorarios{
+    grid-row-start: 2fr;
+    grid-row-end: 2fr;
+ }
 
 /* FOOTER */
 footer{
@@ -266,6 +292,10 @@ border-right: 50px;
 .productosmain{ display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 
+}
+
+.title{
+    text-align: center;
 }
 /* SOBRE NOSOTROS */
 .fotosobre{ 
