@@ -1,7 +1,3 @@
-function calculaPrecio(precio){
-    var gastoDeEnvio = 200;
-    var precioTotal = (precio + gastoDeEnvio);
-}
-alert("Su total a pagar es:" + precioTotal);
+var aviso= ("A todos los precios se les deberá sumar $200 de envio")
 
-calculaPrecio(1100);
+alert (aviso)
