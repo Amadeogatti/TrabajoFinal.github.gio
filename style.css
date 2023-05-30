@@ -567,3 +567,23 @@ textarea {
     font-size: 0.875em;
   }
 }
+
+@media(max-width: 480px){
+  header{
+    background-color: rgb(150, 19, 19);
+  
+
+  }
+  nav{background-color:rgb(150, 19, 19) ;}
+  footer{background-color:rgb(150, 19, 19) ;}
+
+}
+@media(min-width:481px) and (max-width: 768px){
+  header{
+    background-color: rgb(112, 105, 105);
+    border-radius: 1px;
+    border-color: rgb(2, 82, 29);
+  }
+  nav{background-color:rgb(112, 105, 105);}
+  footer{background-color:rgb(112, 105, 105);}
+}
